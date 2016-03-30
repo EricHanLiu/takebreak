@@ -11,9 +11,8 @@ A small program to remind yourself to rest your eyes from the strain of staring 
 20 * * * * /usr/bin/python /pathto/therepository/takebreak/takebreak.py
 40 * * * * /usr/bin/python /pathto/therepository/takebreak/takebreak.py
 ```
-  4. You're done!
 
 ##What now?
 Just wait! Every 20 minutes, a system notification will display telling you to rest your eyes.
 
-This follows the recommended 20/20/20 rule, further explained [here] (https://opto.ca/health-library/the-20-20-20-rule)
+This follows the recommended 20/20/20 rule, further explained [here] (https://opto.ca/health-library/the-20-20-20-rule).
