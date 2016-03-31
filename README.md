@@ -15,7 +15,7 @@ Just wait! Every 20 minutes, a system notification will display telling you to r
 
 This follows the recommended 20/20/20 rule, further explained [here] (https://opto.ca/health-library/the-20-20-20-rule).
 
-#NOTE: In the case that crontab doesn't work properly with notify-send (like in my case):
+###NOTE: In the case that crontab doesn't work properly with notify-send (like in my case):
 I've uploaded a separate file called nocronbreak.py
 
 Running this file in terminal will provide the same results as the previous crontab method
