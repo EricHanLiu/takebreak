@@ -7,9 +7,7 @@ A small program to remind yourself to rest your eyes from the strain of staring 
     - NOTE: If you're unsure how, take a look at my Motivation-SMS repository's README file or read [this guide] (https://help.ubuntu.com/community/CronHowto)
   3. Add the following lines
 ```
-0 * * * * /usr/bin/python /pathto/therepository/takebreak/takebreak.py
-20 * * * * /usr/bin/python /pathto/therepository/takebreak/takebreak.py
-40 * * * * /usr/bin/python /pathto/therepository/takebreak/takebreak.py
+*/20 * * * * export DISPLAY=:0; /usr/bin/python /pathto/therepository/takebreak/takebreak.py
 ```
 
 ##What now?
