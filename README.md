@@ -4,10 +4,11 @@ A small program to remind yourself to rest your eyes from the strain of staring 
 ## How to use
   1. Clone the repository
   2. Edit your crontab with `crontab -e` in terminal
-    - NOTE: If you're unsure how, take a look at my Motivation-SMS repository's README file or read [this guide](https://help.ubuntu.com/community/CronHowto)
-  3. Add the following line if necessary (honestly I can't explain why but the standard method didn't work for me yet this did).
+    - NOTE: If you're unsure how, take a look at [this guide](https://help.ubuntu.com/community/CronHowto)
+  3. Add the following line, or the second one if necessary (honestly I can't explain why this is required but just the first line doesn't work for me on Ubuntu 16.04).
 
 ```
+*/20 * * * * /usr/bin/python /path/to/repository/takebreak/takebreak.py
 */20 * * * * eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME gnome-session)/environ)"; /usr/bin/python /path/to/repository/takebreak/takebreak.py
 
 ```
