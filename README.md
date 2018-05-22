@@ -15,7 +15,9 @@ There is a script for both macOS and Linux.
 
 # Using macOS
 If using a macOS system, you'll want to alter your crontab a little bit to something like this:
-`*/20 * * * * /usr/bin/osascript /path/to/script/takebreak.scpt`
+```
+*/20 * * * * /usr/bin/osascript /path/to/script/takebreak.scpt
+```
 
 ## What now?
 Just wait! Every 20 minutes, a system notification will display telling you to rest your eyes.
